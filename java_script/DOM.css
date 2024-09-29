@@ -1,0 +1,32 @@
+/* h1{
+    background-color: yellow;
+    color: blue;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    margin: 5px;
+    background-color: lightcoral;
+} */
+ .div{
+    height: 200px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+ }
+.para{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    color: white;
+font-style: italic;
+}
+.newPara{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 55, 71);
+    border: 2px solid blue;
+    /* color: black; */
+}

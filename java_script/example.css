@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+}
+.navbar {
+    background-color: lightcoral;
+    border-radius: 90px;
+    /* width: 500px;
+    margin: auto;*/
+}
+
+.navbar ul {
+    overflow: auto;
+    /*When we use float that time the bgcolor overflow in float parent so, thats why we can use 'overflow*/
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    /*this 'list-style' is using for remove the bullets*/
+    margin: 20px;
+
+
+}
+.navbar li:hover{
+    background-color: rgb(254, 220, 220);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+.navbar li:visited{
+   color: rgb(255, 255, 255);
+}
+
+.navbar li a {
+    text-decoration: none;
+    /*This 'text-decoration' is use for removing the underline*/
+    padding: 3px 3px;
+}
+
+.navbar input {
+    float: left;
+    padding: 5px 41px;
+    margin: 15px 37px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
